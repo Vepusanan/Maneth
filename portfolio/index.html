@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Vepusanan Nanthakumar — Aspiring Product & Project Manager building at the intersection of business, technology, and innovation." />
+  <meta name="author" content="Vepusanan Nanthakumar" />
+  <title>Vepusanan Nanthakumar | Product & Project Management</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ========== Navigation ========== -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="#home" class="nav__logo" aria-label="Vepusanan Nanthakumar — Home">
+        <span class="nav__logo-mark">VN</span>
+        <span class="nav__logo-text">Vepusanan</span>
+      </a>
+
+      <button
+        class="nav__toggle"
+        id="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+        aria-label="Open menu"
+      >
+        <span class="nav__toggle-bar" aria-hidden="true"></span>
+        <span class="nav__toggle-bar" aria-hidden="true"></span>
+      </button>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#home" data-section="home">Home</a></li>
+          <li><a class="nav__link" href="#about" data-section="about">About</a></li>
+          <li><a class="nav__link" href="#experience" data-section="experience">Experience</a></li>
+          <li><a class="nav__link" href="#projects" data-section="projects">Projects</a></li>
+          <li><a class="nav__link" href="#contact" data-section="contact">Contact</a></li>
+        </ul>
+        <a
+          class="btn btn--outline nav__resume"
+          href="assets/Vepusanan_Nanthakumar_Resume.pdf"
+          download
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ========== Hero ========== -->
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="hero__atmosphere" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="hero__eyebrow reveal">
+            <span class="hero__location">
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              Sri Lanka
+            </span>
+            <span class="hero__role">Aspiring Product &amp; Project Manager</span>
+          </p>
+
+          <h1 class="hero__name reveal" id="hero-name">
+            Vepusanan Nanthakumar
+          </h1>
+
+          <p class="hero__headline reveal" id="hero-heading">
+            Building at the intersection of
+            <em>Business, Technology &amp; Innovation.</em>
+          </p>
+
+          <p class="hero__support reveal">
+            I'm a Computer Science undergraduate passionate about turning ideas into meaningful digital products, solving business problems, and building impactful solutions through technology.
+          </p>
+
+          <div class="hero__actions reveal">
+            <a class="btn btn--primary" href="#projects">Explore My Work</a>
+            <a class="btn btn--ghost" href="#contact">Let's Connect</a>
+          </div>
+
+          <ul class="social-list reveal" aria-label="Social links">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/vepusanan-nanthakumar"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/vepusanan"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:vepusanan@example.com" aria-label="Email">
+                <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero__media reveal">
+          <figure class="hero__portrait">
+            <img
+              src="assets/images/profile-placeholder.svg"
+              alt="Portrait placeholder for Vepusanan Nanthakumar"
+              width="640"
+              height="800"
+              loading="eager"
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== About ========== -->
+    <section class="section about" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="section__label">About</p>
+          <h2 class="section__title" id="about-heading">A little about me.</h2>
+        </header>
+
+        <div class="about__layout">
+          <div class="about__copy reveal">
+            <p>
+              I'm a Computer Science undergraduate with a strong interest in the intersection of business and technology.
+            </p>
+            <p>
+              Beyond writing code, I enjoy understanding problems, coordinating people, managing projects, exploring business opportunities, and transforming ideas into practical solutions.
+            </p>
+            <p>
+              I believe successful technology is not just about what we build, but why we build it and the value it creates.
+            </p>
+          </div>
+
+          <div class="about__highlights">
+            <article class="highlight-card reveal">
+              <span class="highlight-card__index" aria-hidden="true">01</span>
+              <h3 class="highlight-card__title">Business &amp; Strategy</h3>
+              <p class="highlight-card__text">
+                Framing problems clearly and aligning technology decisions with real business outcomes.
+              </p>
+            </article>
+            <article class="highlight-card reveal">
+              <span class="highlight-card__index" aria-hidden="true">02</span>
+              <h3 class="highlight-card__title">Product &amp; Project Management</h3>
+              <p class="highlight-card__text">
+                Coordinating people, planning delivery, and keeping stakeholders aligned from idea to execution.
+              </p>
+            </article>
+            <article class="highlight-card reveal">
+              <span class="highlight-card__index" aria-hidden="true">03</span>
+              <h3 class="highlight-card__title">Technology &amp; Innovation</h3>
+              <p class="highlight-card__text">
+                Exploring how modern tools and systems can turn ambitious ideas into practical digital products.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Experience ========== -->
+    <section class="section experience" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="section__label">Experience</p>
+          <h2 class="section__title" id="experience-heading">Where I've been building.</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline__item reveal">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__meta">
+                <p class="timeline__company">ASTA</p>
+                <p class="timeline__dates">
+                  <time datetime="2024-09">September 2024</time> – Present
+                </p>
+              </div>
+              <h3 class="timeline__role">Associate Project Manager</h3>
+              <p class="timeline__focus">
+                Project coordination, stakeholder communication, planning, and delivery.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__meta">
+                <p class="timeline__company">ASTA</p>
+                <p class="timeline__dates">
+                  <time datetime="2024-03">March 2024</time> –
+                  <time datetime="2024-08">August 2024</time>
+                </p>
+              </div>
+              <h3 class="timeline__role">Project Management Intern</h3>
+              <p class="timeline__focus">
+                Project support, team coordination, and workflow management.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ========== Skills ========== -->
+    <section class="section skills" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="section__label">Skills</p>
+          <h2 class="section__title" id="skills-heading">Skills &amp; expertise.</h2>
+        </header>
+
+        <div class="skills__grid">
+          <article class="skill-group reveal">
+            <h3 class="skill-group__title">Business &amp; Management</h3>
+            <ul class="tag-list">
+              <li>Project Management</li>
+              <li>Product Management</li>
+              <li>Business Analysis</li>
+              <li>Strategic Planning</li>
+              <li>Stakeholder Management</li>
+              <li>Agile &amp; Scrum</li>
+            </ul>
+          </article>
+
+          <article class="skill-group reveal">
+            <h3 class="skill-group__title">Technology</h3>
+            <ul class="tag-list">
+              <li>HTML &amp; CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>SQL</li>
+              <li>AI &amp; Machine Learning</li>
+            </ul>
+          </article>
+
+          <article class="skill-group reveal">
+            <h3 class="skill-group__title">Tools</h3>
+            <ul class="tag-list">
+              <li>Jira</li>
+              <li>Trello</li>
+              <li>Asana</li>
+              <li>Notion</li>
+              <li>Figma</li>
+              <li>GitHub</li>
+              <li>Canva</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Projects ========== -->
+    <section class="section projects" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="section__label">Projects</p>
+          <h2 class="section__title" id="projects-heading">Featured work.</h2>
+        </header>
+
+        <div class="projects__grid">
+          <article class="project-card reveal">
+            <a
+              class="project-card__media"
+              href="https://pensaa.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View Pensaa project"
+            >
+              <img
+                src="assets/images/project-pensaa.svg"
+                alt="Pensaa — AI-powered adaptive learning platform visual"
+                width="800"
+                height="500"
+                loading="lazy"
+              />
+            </a>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span>EdTech</span>
+                <span>Entrepreneurship</span>
+              </div>
+              <h3 class="project-card__title">Pensaa</h3>
+              <p class="project-card__desc">
+                AI-powered adaptive learning platform for teachers and students.
+              </p>
+              <a
+                class="project-card__link"
+                href="https://pensaa.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <a
+              class="project-card__media"
+              href="https://shakerz.lk"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View Shakerz project"
+            >
+              <img
+                src="assets/images/project-shakerz.svg"
+                alt="Shakerz — beverage brand website visual"
+                width="800"
+                height="500"
+                loading="lazy"
+              />
+            </a>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span>Branding</span>
+                <span>Web Development</span>
+              </div>
+              <h3 class="project-card__title">Shakerz</h3>
+              <p class="project-card__desc">
+                Digital brand presence and website development for a beverage brand.
+              </p>
+              <a
+                class="project-card__link"
+                href="https://shakerz.lk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__media project-card__media--static" aria-hidden="true">
+              <img
+                src="assets/images/project-aiesec.svg"
+                alt=""
+                width="800"
+                height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span>Web Development</span>
+                <span>Event Technology</span>
+              </div>
+              <h3 class="project-card__title">AIESEC Leadership Conference Website</h3>
+              <p class="project-card__desc">
+                Event website with registration functionality and interactive experiences.
+              </p>
+              <span class="project-card__link project-card__link--muted">Private / Internal</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__media project-card__media--static" aria-hidden="true">
+              <img
+                src="assets/images/project-defi.svg"
+                alt=""
+                width="800"
+                height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span>Research</span>
+                <span>Blockchain</span>
+              </div>
+              <h3 class="project-card__title">Decentralized Finance Research</h3>
+              <p class="project-card__desc">
+                Research into adversarial verification and economic risk assessment of decentralized financial protocols.
+              </p>
+              <span class="project-card__link project-card__link--muted">Research Project</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Interests ========== -->
+    <section class="section interests" id="interests" aria-labelledby="interests-heading">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="section__label">Interests</p>
+          <h2 class="section__title" id="interests-heading">Beyond the Screen.</h2>
+        </header>
+
+        <ul class="interest-list reveal">
+          <li>Entrepreneurship</li>
+          <li>Product Innovation</li>
+          <li>FinTech</li>
+          <li>Artificial Intelligence</li>
+          <li>Business Strategy</li>
+          <li>Emerging Technologies</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== Contact ========== -->
+    <section class="section contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact__inner">
+        <header class="section__header reveal">
+          <p class="section__label">Contact</p>
+          <h2 class="section__title" id="contact-heading">Have an idea? Let's make it happen.</h2>
+          <p class="section__lead">
+            I'm always interested in connecting with people, exploring opportunities, and discussing ideas that bring business and technology together.
+          </p>
+        </header>
+
+        <div class="contact__actions reveal">
+          <a class="btn btn--primary btn--lg" href="mailto:vepusanan@example.com">
+            <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+            Say Hello
+          </a>
+
+          <ul class="contact__channels" aria-label="Contact channels">
+            <li>
+              <a href="mailto:vepusanan@example.com">
+                <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+                <span>vepusanan@example.com</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/vepusanan-nanthakumar"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                <span>LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/vepusanan"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+                <span>GitHub</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div class="site-footer__brand">
+        <p class="site-footer__name">Vepusanan Nanthakumar</p>
+        <p class="site-footer__tagline">Building at the intersection of business, technology &amp; innovation.</p>
+      </div>
+
+      <ul class="social-list social-list--footer" aria-label="Footer social links">
+        <li>
+          <a
+            href="https://www.linkedin.com/in/vepusanan-nanthakumar"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/vepusanan"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:vepusanan@example.com" aria-label="Email">
+            <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+
+      <p class="site-footer__copy">
+        &copy; <span id="copyright-year"></span> Vepusanan Nanthakumar. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

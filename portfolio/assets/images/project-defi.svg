@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" fill="none" role="img" aria-label="DeFi research visual">
+  <rect width="800" height="500" fill="#F5F3FF"/>
+  <rect x="100" y="100" width="280" height="300" rx="14" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="2"/>
+  <rect x="130" y="140" width="160" height="12" rx="6" fill="#7C3AED" opacity="0.7"/>
+  <rect x="130" y="180" width="220" height="8" rx="4" fill="#E5E7EB"/>
+  <rect x="130" y="206" width="180" height="8" rx="4" fill="#E5E7EB"/>
+  <rect x="130" y="260" width="90" height="90" rx="12" fill="#EDE9FE"/>
+  <rect x="240" y="260" width="90" height="90" rx="12" fill="#DDD6FE"/>
+  <path d="M480 160l80 40-80 40-80-40 80-40z" fill="#8B5CF6" opacity="0.35"/>
+  <path d="M480 240l80 40-80 40-80-40 80-40z" fill="#7C3AED" opacity="0.25"/>
+  <path d="M480 320l80 40-80 40-80-40 80-40z" fill="#6D28D9" opacity="0.2"/>
+  <circle cx="640" cy="250" r="8" fill="#7C3AED"/>
+</svg>
